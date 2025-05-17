@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="allcontent">
+    <div class="popupanimation">
+      <div class="upper-notification-section">
+        <img src="icon-success-check.svg" alt="checkboxicon" class="image">
+        <p class="sent">message sent</p>
+      </div>
+      <div class="upper-notification-section1">
+        <p class="confermation">
+          Thanks for completing the form. We'll be in touch soon!
+        </p>
+      </div>
+    </div>
+    <div class="formouter">
+      <div class="heading">
+        <h1 class="contectus">Contact Us</h1>
+      </div>
+      <div class="name-section">
+        <div class="firstname">
+
+          <div class="heading-first-name-input">
+            <label for="firstname1" class="forname">First name</label>
+          </div>
+          <div class="first-name-input">
+            <input type="text" class="first-name-section">
+
+            <p class="no-input-error">
+              Required to fill this
+            </p>
+          </div>
+        </div>
+        <div class="firstname">
+            <div class="heading-first-name-input">
+            <label for="firstname1" class="forname">last name(Optional)</label>
+          </div>
+          <div class="first-name-input">
+            <input type="text" class="first-name-section">
+            <!-- <p class="no-input-error">
+              Required to fill this
+            </p> -->
+          </div>
+        </div>
+      </div>
+      <div class="email-section">
+        <div class="email-label-section">
+          <label for="email" class="email1">Email</label>
+        </div>
+        <div class="email-input-section">
+          <input type="email" id="email" name="email" required>
+          <div class="error">
+
+            <p class="email-input-error">
+              Email is required
+            </p>
+          </div>
+        </div>
+
+      </div>
+      <div class="query-section">
+        <div class="uppersection">
+          <p class="querslector">Query type</p>
+        </div>
+        <div class="lowersection">
+          <div class="leftquery">
+            <div class="firstchoice">
+              <input type="radio" name="firstradio" id="queryradio">
+              <label for="firstradio" class="firstc">Genral enquiry</label>
+            </div>
+          </div>
+          <div class="leftquery">
+            <div class="firstchoice">
+              <input type="radio" name="firstradio" id="queryradio">
+              <label for="firstradio" class="firstc">Support request</label>
+            </div>
+  
+          </div>
+        </div>
+        <div class="error-section">
+          <p class="required">
+            please select the query type
+          </p>
+        </div>
+      </div>
+      <div class="message-section">
+        <div class="message-uppersection">
+          <p class="message">message</p>
+        </div>
+        <div class="message-lowersection">
+          <textarea name="message-input" id="input"></textarea>
+          <div class="error-section2">
+            <p class="required2">This field id required</p>
+          </div>
+        </div>
+      </div>
+      <div class="checkbox-section">
+        <div class="content">
+          <input type="checkbox" name="agree" class="checkbox">
+          <label for="agree" class="labelname">I consent to being connected by the team</label>
+        </div>
+        <div class="checkboxreeor">
+          <p class="check-erreo">To submit this form,please consent to being </p>
+        </div>
+      </div>
+      <div class="submit-section">
+        <button type="submit" class="submit-form">Submit</button>
+      </div>
+
+
+
+
+    </div>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
